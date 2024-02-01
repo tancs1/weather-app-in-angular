@@ -1,0 +1,163 @@
+.container-fluid{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header{
+    width: 100vw;
+    
+}
+.header h1{
+   left: 30%;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 20px;
+   
+}
+.content{
+width: 90%;
+height: 70%;
+display: flex;
+justify-content: center;
+border-radius: 20px;
+}
+.left{
+background-image: url(../assets/pexels-prashant-gautam-3783385.jpg);
+background-size: cover;
+overflow: hidden;
+background-repeat:no-repeat ;
+height: 105%;
+z-index: 900;
+border-radius: 20px;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 30px;
+line-height: 15px;
+}
+.left:hover{
+transform: translate(20px, -10px);
+transition-duration: 1s ;
+
+
+}
+.top h1{
+font-weight: 800;
+}
+.botom h1{
+font-weight: 800;
+font-size: 60px;
+}
+.top .date, .location, .sunny{
+font-size: 20px;
+font-weight: 800;
+}
+.right{
+    position: relative;
+margin-top: 10px;
+background: #0f0c296b; 
+height: 100%; 
+
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+color: fuchsia;
+padding: 40px;
+}
+
+
+.innercontent{
+    position: relative;
+
+display: flex;
+flex-direction: row;
+
+}
+.innercontent .left2{
+text-transform: uppercase;
+color: white;   
+margin-right: 15px;
+}
+.innercontent p{
+font-size: 20px;
+font-weight: 800;
+}
+i{
+color: fuchsia;
+}
+.btn-in{
+    position: relative;
+    height: 50%;
+}
+.input-group{
+position: absolute;
+top: 50%;
+
+width: 70%;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+
+
+.container {
+width: 400px;
+height: 400px;
+position: absolute;
+left: 12%;
+/* top: 50%; */
+transform: translate(-50%, -50%);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 80px;
+}
+
+.center {
+width: 180px;
+height: 60px;
+position: absolute;
+}
+
+.btn {
+
+width: 180px;
+height: 60px;
+cursor: pointer;
+background: transparent;
+border: 1px solid #91C9FF;
+outline: none;
+transition: 1s ease-in-out;
+}
+
+svg {
+position: absolute;
+left: 0;
+top: 0;
+fill: none;
+stroke: #fff;
+stroke-dasharray: 150 480;
+stroke-dashoffset: 150;
+transition: 1s ease-in-out;
+}
+
+.btn:hover {
+transition: 1s ease-in-out;
+background: #4F95DA;
+}
+
+.btn:hover svg {
+stroke-dashoffset: -480;
+}
+
+.btn span {
+color: white;
+font-size: 18px;
+font-weight: 100;
+}
